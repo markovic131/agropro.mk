@@ -1,24 +1,9 @@
     <footer>
         <div class="container">
-            <section id="social">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <a href="https://www.facebook.com/agropromk" target="_blank">Facebook</a>
-                    </div>
-                </div>
-            </section>
-            <section id="logo">
-                <div class="row">
-                    <div class="col-md-12">
-                        <img src="/img/agro_pro_logo_60.jpg" class="img-responsive" alt="Agro-Pro Logo">
-                    </div>
-                </div>
-            </section>
-            <hr>
             <section id="copyright">
                 <div class="row">
-                    <div class="col-md-12 text-center">
-                        <small>&copy; 2008 - <?php echo date('Y'); ?> Carnia Design Co.. All Rights Reserved.</small><br>
+                    <div class="col-md-12 text-left">
+                        <small>&copy; 1993 - <?php echo date('Y'); ?> Агро Про ДОО.  Сите права задржани.</small><br>
                         <small><?php echo time() ?></small>
                     </div>
                 </div>

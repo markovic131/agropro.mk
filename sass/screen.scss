@@ -10,32 +10,33 @@
 body {
 
     position: relative;
-    padding-top: 80px;
+    //padding-top: 80px;
     //border-top: 20px solid $brand-primary;
 
     #languageSelector {
-        position: absolute;
-        text-align: right;
-        top: 85px;
-        right: 5px;
-        padding: 3px 10px;
-        border: 1px solid $gray-light;
-        @include border-radius($border-radius-base);
+        // position: absolute;
+        // text-align: right;
+        // top: 85px;
+        // right: 5px;
+        // padding: 3px 10px;
+        // border: 1px solid $gray-light;
+        // @include border-radius($border-radius-base);
 
-        a {
-            font-size: $font-size-small;
-            color: $gray-light;
-            display: inline-block;
-            margin-right: 10px;
-            text-transform: uppercase;
+        // a {
+        //     font-size: $font-size-small;
+        //     color: $gray-light;
+        //     display: inline-block;
+        //     margin-right: 10px;
+        //     text-transform: uppercase;
 
-            &:hover {
-                //text-decoration: none;
-            }
-            &:last-child {
-                margin-right: 0;
-            }
-        }
+        //     &:hover {
+        //         //text-decoration: none;
+        //     }
+        //     &:last-child {
+        //         margin-right: 0;
+        //     }
+        // }
+        display: none;
     }
 
     .iconHolder {

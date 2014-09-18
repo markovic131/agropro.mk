@@ -7,18 +7,21 @@
                 <p>
                     Ние прашуваме и слушаме, во поглед на темелно разбирање на Вашата компанија, проект, публика и цели.
                 </p>
+                <img src="/img/kumanovski_kori_logo.png" class="img-responsive">
             </div>
             <div class="col-md-4">
                 <h5>Fortis&trade;</h5>
                 <p>
                     Ние внимателно го планираме Вашиот проект и преточуваме во дизајнерски решенија кои се одраз на Вашата замисла.
                 </p>
+                <img src="/img/fortis_logo.jpg" class="img-responsive">
             </div>
             <div class="col-md-4">
                 <h5>Кумановска Градска Пекара&trade;</h5>
                 <p>
                     Ние ги следиме дефинираните планови и испорачуваме продукт кој ги опфаќа сите вредности кон кои се стремиме.
                 </p>
+                <img src="/img/kumanovska_gradska_pekara_logo.png" class="img-responsive">
             </div>
         </div>
     </section>
@@ -33,17 +36,14 @@
                 </p>
                 <p>
                     <address>
-                        <strong>Carnia Design</strong><br>
-                        Козјачка 44<br>
+                        <strong>Агро-Про ДОО</strong><br>
+                        Козјачка 44, Индустриска Зона Доброшане<br>
                         1300 Куманово, <abbr title="Македонија">MK</abbr><br>
-                        <?=mungemail('info@carniadesign.com')?><br>
-                        +389 70 799 701
+                        <?=mungemail('info@agropro.mk')?><br>
+                        +389 31 412 715 факс.<br>
+                        +389 31 453 905<br>
+                        +389 31 453 906
                     </address>
-                </p>
-                <p>
-                    <h5>Сакате да станете дел од Carnia Design?</h5>
-                    Испратете ни го Вашето CV, LinkedIn профил и друг метеријал што мислите дека е релевантен на <?=mungemail('info@carniadesign.com')?>,
-                    и ние ќе Ве контактираме.
                 </p>
             </section>
         </div>
