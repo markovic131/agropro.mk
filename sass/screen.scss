@@ -1,0 +1,159 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass";
+@import "bootstrap";
+
+body {
+
+    position: relative;
+    padding-top: 80px;
+    //border-top: 20px solid $brand-primary;
+
+    #languageSelector {
+        position: absolute;
+        text-align: right;
+        top: 85px;
+        right: 5px;
+        padding: 3px 10px;
+        border: 1px solid $gray-light;
+        @include border-radius($border-radius-base);
+
+        a {
+            font-size: $font-size-small;
+            color: $gray-light;
+            display: inline-block;
+            margin-right: 10px;
+            text-transform: uppercase;
+
+            &:hover {
+                //text-decoration: none;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .iconHolder {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        svg {
+            display: block;
+            margin: 0 auto;
+            max-height: 334px;
+            max-width: 334px;
+        }
+    }
+
+    .segment {
+
+        section {
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
+
+        h1 {
+            text-transform: uppercase;
+            margin-top: 0;
+            margin-bottom: 25px;
+        }
+    }
+
+    .grayWrapper {
+        background-color: $gray-dark;
+        border-top: 1px solid $gray-darker;
+        border-bottom: 1px solid $gray-darker;
+        color: #fff;
+        a {
+            color: #fff;
+        }
+        //@include box-shadow(0 2px 8px #333);
+    }
+
+    section[role=content] {
+
+        section#contact {
+
+            address {
+                strong {
+                    font-size: 18px;
+                }
+                a {
+                    //font-weight: bold;
+                }
+            }
+        }
+
+        section#quotation {
+            p {
+                margin-top: 10px;
+                text-align: right;
+            }
+        }
+
+    }
+
+
+    footer {
+
+        padding-top: 90px;
+        padding-bottom: 90px;
+        text-transform: uppercase;
+        color: $gray-light;
+
+        section#social {
+            a {
+                color: $gray;
+                text-transform: uppercase;
+                font-weight: bold;
+                margin-right: 40px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+            @media (max-width: $screen-sm-max) {
+                a {
+                    //margin-right: 0;
+                    margin-right: 20px;
+                    display: inline-block;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+
+        }
+
+        section#logo {
+
+            margin: 35px 0;
+
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+
+        section#copyright {
+
+        }
+    }
+}
+
+// @import "cdi/*.png";
+// .cdi {
+//     display: inline-block;
+//     height: 48px;
+//     width: 48px;
+
+//     margin-right: 5px;
+//     &:last-child {
+//         margin-right: 0;
+//     }
+// }
+// @include all-cdi-sprites;
