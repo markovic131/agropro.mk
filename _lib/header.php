@@ -7,17 +7,17 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Агро Про ДОО</title>
-        <meta name="description" content="Carnia Design is digital agency focused on delivering amazing user experiences and creating business value through knowledge, innovation and cutting-edge technology.">
-        <meta name="keywords" content="web design, web development, php, laravel, interactive agency, marketing agency, creative agency, digital agency, internet marketing, маркетинг агенција, интернет маркетинг, branding, brands, user experience, social media, e-commerce, e-business">
+        <title>Агро Про &middot; </title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:300,900&subset=latin,cyrillic'  type='text/css'>
         <link rel="stylesheet" href="/css/screen.css">
     </head>
     <body>
         <header>
             <div class="container">
-                <img src="/img/agro_pro_logo.jpg" class="img-responsive">
+                <img src="/img/agro_pro_logo.jpg" class="img-responsive" style="height:120px;margin-top:25px">
             </div>
         </header>
         <!--[if lt IE 7]>

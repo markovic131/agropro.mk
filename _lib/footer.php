@@ -4,7 +4,7 @@
                 <div class="row">
                     <div class="col-md-12 text-left">
                         <small>&copy; 1993 - <?php echo date('Y'); ?> Агро Про ДОО.  Сите права задржани.</small><br>
-                        <small><?php echo time() ?></small>
+                        <small>Дизајн и развој <a href="http://carniadesign.com?lang=mk">Carnia Design</a></small>
                     </div>
                 </div>
             </section>
@@ -12,21 +12,9 @@
     </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <script>
-        $(function() {
-            $('a[href*=#]:not([href=#])').on('click',function() {
-                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                    if (target.length) {
-                        $('html,body').animate({
-                            scrollTop: target.offset().top - 78
-                        }, 300);
-                        return false;
-                    }
-                }
-            });
+        $(function(){
+            $('a[href*="://"], form[action*="://"]').not($('a[href*="://'+location.host+'"]')).attr('target','_blank');
         });
     </script>
     <script>

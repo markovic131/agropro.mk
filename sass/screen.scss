@@ -74,6 +74,16 @@ body {
         }
         //@include box-shadow(0 2px 8px #333);
     }
+    .greenWrapper {
+        background-color: $ap-primary;
+        border-top: 1px solid $ap-seconday;
+        border-bottom: 1px solid $ap-seconday;
+        color: #fff;
+        a {
+            color: #fff;
+        }
+        //@include box-shadow(0 2px 8px #333);
+    }
 
     section[role=content] {
 
