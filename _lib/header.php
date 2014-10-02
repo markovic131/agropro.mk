@@ -17,7 +17,7 @@
     <body>
         <header>
             <div class="container">
-                <img src="/img/agro_pro_logo.jpg" class="img-responsive" style="height:120px;margin-top:25px">
+                <img src="/img/agro_pro_logo.png" id="apLogo" class="img-responsive">
             </div>
         </header>
         <!--[if lt IE 7]>
