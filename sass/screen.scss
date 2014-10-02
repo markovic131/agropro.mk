@@ -97,6 +97,10 @@ body {
 
     section[role=content] {
 
+        section#brands {
+
+        }
+
         section#contact {
 
             address {
@@ -136,7 +140,7 @@ body {
 
         section#social {
             a {
-                color: $gray;
+                color: #fff;
                 text-transform: uppercase;
                 font-weight: bold;
                 margin-right: 40px;
