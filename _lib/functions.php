@@ -1,26 +1,26 @@
 <?php
 
 //Get the current language if exists
-$lang = isset($_GET['lang']) ? $_GET['lang'] : 'mk';
+// $lang = isset($_GET['lang']) ? $_GET['lang'] : 'mk';
 
-//Check if the selected language is valid
-if(!in_array($lang,['en','mk'])) {
-    $lang = 'mk';
-}
+// //Check if the selected language is valid
+// if(!in_array($lang,['en','mk'])) {
+//     $lang = 'mk';
+// }
 
 //Navigation labels in English and Macedonian
-$navLabels = [
-    'en' => [
-        'process'  => 'Process',
-        'services' => 'Services',
-        'contact'  => 'Contact',
-    ],
-    'mk' => [
-        'process'  => 'Процес',
-        'services' => 'Услуги',
-        'contact'  => 'Контакт',
-    ],
-];
+// $navLabels = [
+//     'en' => [
+//         'process'  => 'Process',
+//         'services' => 'Services',
+//         'contact'  => 'Contact',
+//     ],
+//     'mk' => [
+//         'process'  => 'Процес',
+//         'services' => 'Услуги',
+//         'contact'  => 'Контакт',
+//     ],
+// ];
 
 //////////////////////////////////////////////////////////////
 //----------------------- FUNCTIONS ----------------------- //
