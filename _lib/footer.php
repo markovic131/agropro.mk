@@ -11,7 +11,7 @@
             <section id="copyright">
                 <div class="row">
                     <div class="col-md-12 text-left">
-                        <small>&copy; 1993 - <?php echo date('Y'); ?> Агро Про ДОО.  Сите права задржани.</small><br>
+                        <small>&copy; 1993 - <?php echo date('Y'); ?> Агро-Про ДОО.  Сите права задржани.</small><br>
                         <small>Дизајн и развој <a href="http://carniadesign.com?lang=mk">Carnia Design</a></small>
                     </div>
                 </div>
