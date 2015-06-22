@@ -22,7 +22,7 @@
                     <a href="http://gradskapekara.mk">www.gradskapekara.mk &rarr;</a>
                 </p>
             </div>
-            <div class="col-md-4">
+            <!-- <div class="col-md-4">
                 <h4><a href="http://fortis.mk">Fortis&trade;</a></h4>
                 <p>
                     Fortis&trade; е бренд на високо квалитетна професионална опрема за пекари, месари и ресторани; кој директно ги рефлектира потребите на мали и средни производствени погони за опрема по пристапни цени.
@@ -30,9 +30,9 @@
                 <p>
                     <a href="http://fortis.mk">www.fortis.mk &rarr;</a>
                 </p>
-            </div>
+            </div> -->
         </div>
-            <div class="row">
+        <!-- <div class="row">
             <div class="col-md-4">
                 <h4><a href="http://onivo.mk">Onivo</a></h4>
                 <p>
@@ -52,7 +52,7 @@
                     <a href="http://carniadesign.com">www.carniadesign.com &rarr;</a>
                 </p>
             </div>
-        </div>
+        </div> -->
     </section>
 </div>
 <div class="greenWrapper" id="contact">
@@ -65,7 +65,7 @@
                         <address>
                             <small> <i>Администрација</i></small><br>
                             <strong>Агро-Про ДОО</strong><br>
-                            Козјачка 44, Индустриска Зона Доброшане<br>
+                            Козјачка 44, Индустриска Зона 2 Доброшане<br>
                             1300 Куманово, <abbr title="Македонија">MK</abbr><br><br>
                             +389 31 453 905<br>
                             +389 31 453 906<br>
