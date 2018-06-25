@@ -67,9 +67,10 @@
                             <strong>Агро-Про ДОО</strong><br>
                             Козјачка 44, Индустриска Зона 2 Доброшане<br>
                             1300 Куманово, <abbr title="Македонија">MK</abbr><br><br>
-                            +389 31 453 905<br>
+                            <!-- +389 31 453 905<br> -->
                             +389 31 453 906<br>
-                            +389 31 412 715<br>
+                            +389 70 444 395<br>
+                            +389 31 412 715 Нарачки<br>
                             <br>
                             <?=mungemail('info@agropro.mk')?><br>
                             <a href="http://agropro.mk">www.agropro.mk</a>
